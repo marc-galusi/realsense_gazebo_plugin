@@ -57,7 +57,7 @@
         <child link="${prefix}color" />
         <!-- <origin xyz="0 -0.046 0.004" rpy="0 0 0"/> -->
         <!-- The default position is change since in Rviz the cloud depth axis is Z not X-->
-        <origin xyz="0 -0.046 0.004" rpy="${pi/2} ${pi} ${pi/2}"/>
+        <origin xyz="0 0 0" rpy="${pi/2} ${pi} ${pi/2}"/>
     </joint>
 
     <joint name="${prefix}depth_joint" type="fixed">
